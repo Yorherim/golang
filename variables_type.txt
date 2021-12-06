@@ -1,0 +1,22 @@
+-- type number --
+var a int8 // -128 до 127 | 1 byte
+var b int16 // -32768 до 32767 | 2 byte
+var c int32 // -2bil до 2bil | 4 byte
+var d int64 // -9pent до 9pent | 8 byte
+var e uint8 // 0 до 255 | 1 byte
+var f uint16 // 0 до 65535 | 2 byte
+var g uint32 // 0 до 4bil | 4 byte
+var g uint64 // 0 до 18pent | 8 byte
+var i byte // synonim uint8 (от 0 до 255)
+var j rune // synonim int32
+var k int // synonim int32 или int64 (в зависимости от ОС)
+var m uint // synonim uint32 или uint64 (в зависимости от ОС)
+var a1 float32 = 1.8 // 1.4*10^-45 до 3.4*10^35
+var b1 float64 = 1.8 // ...
+
+-- type boolean --
+var c1 bool = true
+var d1 bool = false
+
+-- type string --
+var name string = "ratata"
